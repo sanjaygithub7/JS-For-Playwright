@@ -10,7 +10,7 @@ if(true){
     console.log(c)
 }
 
-console.log(b)
+console.log(b) //Added changes
 }
 
 console.log(a)
