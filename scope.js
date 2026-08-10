@@ -18,3 +18,4 @@ console.log(a)
 scope() //calling a function
 
 console.log(b);
+console.log(C);
