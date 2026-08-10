@@ -1,4 +1,4 @@
-//Scopes
+//Scopes in JS
 
 let a='global'
 
