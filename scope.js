@@ -15,6 +15,6 @@ console.log(b) //Added changes
 
 console.log(a)
 
-scope()
+scope() //calling a function
 
 console.log(b);
