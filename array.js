@@ -43,6 +43,18 @@ names.forEach((name)=>{
 })
 
 //Map method
+//Goes through every item in an array, changes/transforms it, and returns a new array.
+
+const oldarray=[1,2,3,4];
+const newarray=oldarray.map((x)=>{
+    return x*3
+})
+
+console.log(newarray)
+
+
+
+
 
 
 
