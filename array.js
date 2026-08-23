@@ -52,7 +52,12 @@ const newarray=oldarray.map((x)=>{
 
 console.log(newarray)
 
-
+//filter() goes through every item in an array and keeps only the items that match a condition.
+const numbers=[1,2,3,4,5,6];
+const items=numbers.filter((x)=>{
+     return x%2==0
+})
+console.log(items)
 
 
 
