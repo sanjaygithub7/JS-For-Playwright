@@ -59,6 +59,23 @@ const items=numbers.filter((x)=>{
 })
 console.log(items)
 
+//reduce() takes an array with multiple values and combines them into one final value.
+/* [1, 2, 3, 4]
+      ↓
+    reduce()                                   acc--->stores the result value
+      ↓                                        cur--->stores the current value
+1 + 2 + 3 + 4
+      ↓
+     10 */
+
+let num=[1,2,3,4,5]
+let calc=num.reduce((acc,cur)=>{
+    return acc+cur
+
+},0)
+
+console.log(calc)
+
 
 
 
