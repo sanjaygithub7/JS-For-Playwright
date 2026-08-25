@@ -77,6 +77,15 @@ let calc=num.reduce((acc,cur)=>{
 console.log(calc)
 
 
+/* | Method      | What it does                      | What it returns                |
+| ----------- | --------------------------------- | ------------------------------ |
+| `forEach()` | Performs an action for every item | `undefined`                    |
+| `map()`     | Transforms every item             | **New Array**                  |
+| `filter()`  | Keeps matching items              | **New Array**                  |
+| `reduce()`  | Combines items                    | **One final value** — any type |
+ */
+
+
 
 
 
